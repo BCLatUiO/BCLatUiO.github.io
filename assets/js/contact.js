@@ -35,23 +35,23 @@ $(document).ready(function(){
             },
             messages: {
                 name: {
-                    required: "come on, you have a name, don't you?",
-                    minlength: "your name must consist of at least 2 characters"
+                    required: "Please fill in your name!",
+                    minlength: "Entry for name does not appear to be valid!"
                 },
                 subject: {
-                    required: "come on, you have a subject, don't you?",
-                    minlength: "your subject must consist of at least 4 characters"
+                    required: "Please fill in the subject of your inquiry!",
+                    minlength: "your subject must consist of at least 4 characters!"
                 },
                 number: {
-                    required: "come on, you have a number, don't you?",
-                    minlength: "your Number must consist of at least 5 characters"
+                    required: "Please specify your contact number!",
+                    minlength: "your Number must consist of at least 5 characters!"
                 },
                 email: {
-                    required: "no email, no message"
+                    required: "Please fill in your email address!"
                 },
                 message: {
-                    required: "um...yea, you have to write something to send this form.",
-                    minlength: "thats all? really?"
+                    required: "Please fill in the message content!",
+                    minlength: "The message is too short!"
                 }
             },
             submitHandler: function(form) {
