@@ -1,18 +1,18 @@
 
 .slider-height {
     background-image: url(../img/hero/h1_hero.png);
-    min-height: 840px;
+    min-height: 640px;
     background-repeat:no-repeat ;
     background-position: center center;
     background-size: cover;
     @media #{$md}{
-        min-height: 600px;
+        min-height: 500px;
     }
     @media #{$sm}{
-        min-height: 400px;
+        min-height: 300px;
     }
     @media #{$xs}{
-        min-height: 400px;
+        min-height: 200px;
     }
 }
 
