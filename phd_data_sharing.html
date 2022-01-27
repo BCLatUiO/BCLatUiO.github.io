@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)https://www.blockchainlab.no/phd_security.html -->
+<html class="js sizes customelements history pointerevents postmessage webgl websockets cssanimations csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox picture srcset webworkers" lang="zxx"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Blockchain-UiO</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.blockchainlab.no/assets/img/favicon.ico">
+
+	<!-- CSS here -->
+	<link rel="stylesheet" href="./phd_security_files/bootstrap.min.css">
+	<link rel="stylesheet" href="./phd_security_files/owl.carousel.min.css">
+	<link rel="stylesheet" href="./phd_security_files/slicknav.css">
+    <link rel="stylesheet" href="./phd_security_files/flaticon.css">
+    <link rel="stylesheet" href="./phd_security_files/gijgo.css">
+	<link rel="stylesheet" href="./phd_security_files/animate.min.css">
+	<link rel="stylesheet" href="./phd_security_files/magnific-popup.css">
+	<link rel="stylesheet" href="./phd_security_files/fontawesome-all.min.css">
+	<link rel="stylesheet" href="./phd_security_files/themify-icons.css">
+	<link rel="stylesheet" href="./phd_security_files/slick.css">
+	<link rel="stylesheet" href="./phd_security_files/nice-select.css">
+	<link rel="stylesheet" href="./phd_security_files/style.css">
+</head>
+<body data-new-gr-c-s-check-loaded="14.1046.0" data-gr-ext-installed="" style="overflow: visible;">
+    <!--? Preloader Start -->
+    <div id="preloader-active" style="display: none;">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="./phd_security_files/loder.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+    <header>
+        <!-- Header Start -->
+        <div class="header-area">
+            <div class="main-header ">
+                <!-- <div class="header-top d-none d-lg-block">
+                    
+                    <div class="header-left-social">
+                        <ul class="header-social">    
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li> <a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="container">
+                        <div class="col-xl-12">
+                            <div class="row d-flex justify-content-between align-items-center">
+                                <div class="header-info-left">
+                                    <ul>     
+                                        <li>needhelp@gmail.com</li>
+                                        <li>666 7475 25252</li>
+                                    </ul>
+                                </div>
+                                <div class="header-info-right">
+                                    <ul>    
+                                        <li><a href="#"><i class="ti-user"></i>Login</a></li>
+                                        <li><a href="#"><i class="ti-lock"></i>Register</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="header-bottom header-sticky">
+                    <!-- Logo -->
+                    <div class="logo d-none d-lg-block">
+                        <a href="https://www.blockchainlab.no/index.html"><img src="./phd_security_files/logo.png" alt=""></a>
+                    </div>
+                    <div class="container">
+                        <div class="menu-wrapper">
+                            <!-- Logo -->
+                            <div class="logo logo2 d-block d-lg-none">
+                                <a href="https://www.blockchainlab.no/index.html"><img src="./phd_security_files/logo.png" alt=""></a>
+                            </div>
+                            <!-- Main-menu -->
+                            <div class="main-menu d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">                                                                                          
+                                        <li><a>Home &amp; About</a>
+                                            <ul class="submenu">
+                                                <li><a href="https://www.blockchainlab.no/index.html">Home</a></li>
+                                                <li><a href="https://www.blockchainlab.no/about.html">About</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="https://www.blockchainlab.no/research_appDomain.html">Research &amp; Applications</a></li>
+                                        <li><a>Organization &amp; People</a>
+                                            <ul class="submenu">
+                                                <li><a href="https://www.blockchainlab.no/steering-committee.html">Steering Committee</a></li>
+                                                <li><a href="https://www.blockchainlab.no/organization_people.html">People</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="https://www.blockchainlab.no/projects.html">Projects</a></li>
+                                        <li><a href="https://www.blockchainlab.no/partnership.html">Partnership</a></li>
+                                        <li><a href="https://www.blockchainlab.no/contact.html">Contact</a></li>
+                                        <li><a href="https://www.blockchainlab.no/vacancies.html" style="color:darkblue;">Vacancies</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <!-- Header-btn -->
+                            <!-- <div class="header-search d-none d-lg-block">
+                                <form action="#" class="form-box f-right ">
+                                    <input type="text" name="Search" placeholder="Search Courses">
+                                    <div class="search-icon">
+                                        <i class="fas fa-search special-tag"></i>
+                                    </div>
+                                </form>
+                            </div> -->
+                        </div>
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"><div class="slicknav_menu"><a href="https://www.blockchainlab.no/phd_security.html#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">                                                                                          
+                                        <li class="slicknav_collapsed slicknav_parent"><a href="https://www.blockchainlab.no/phd_security.html#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row"><a tabindex="-1">Home &amp; About</a>
+                                            <span class="slicknav_arrow">+</span></a><ul class="submenu slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
+                                                <li><a href="https://www.blockchainlab.no/index.html" role="menuitem" tabindex="-1">Home</a></li>
+                                                <li><a href="https://www.blockchainlab.no/about.html" role="menuitem" tabindex="-1">About</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="https://www.blockchainlab.no/research_appDomain.html" role="menuitem" tabindex="-1">Research &amp; Applications</a></li>
+                                        <li class="slicknav_collapsed slicknav_parent"><a href="https://www.blockchainlab.no/phd_security.html#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row"><a tabindex="-1">Organization &amp; People</a>
+                                            <span class="slicknav_arrow">+</span></a><ul class="submenu slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
+                                                <li><a href="https://www.blockchainlab.no/steering-committee.html" role="menuitem" tabindex="-1">Steering Committee</a></li>
+                                                <li><a href="https://www.blockchainlab.no/organization_people.html" role="menuitem" tabindex="-1">People</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="https://www.blockchainlab.no/projects.html" role="menuitem" tabindex="-1">Projects</a></li>
+                                        <li><a href="https://www.blockchainlab.no/partnership.html" role="menuitem" tabindex="-1">Partnership</a></li>
+                                        <li><a href="https://www.blockchainlab.no/contact.html" role="menuitem" tabindex="-1">Contact</a></li>
+                                        <li><a href="https://www.blockchainlab.no/vacancies.html" style="color:darkblue;" role="menuitem" tabindex="-1">Vacancies</a></li>
+                                    </ul></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+    </header>
+    <main>
+        <!--? Hero Start -->
+        <div class="slider-area">
+            <div class="slider-height2 d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap hero-cap2 text-center">
+                                <h2>PhD Research Fellow in Blockchain-Assisted Data Sharing</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+        <!-- About Details Start -->
+        <div class="about-details" id="about-mission" style="padding-top: 60px; padding-bottom: 0px;">
+            <div class="container">
+                <div class="row justify-content">
+                    <div class="col-lg-9 col-md-12">
+                        <div class="about-details-cap mb-50">
+                            <div class="section-tittle mb-35">
+                                <h3><b>Position</b></h3>
+                            </div>
+
+                            <p>Position as PhD Research Fellow in blockchain-assisted data sharing for transactive energy management is available at the Networks and Distributed systems (ND) group, Department of Informatics, University of Oslo. The position is in the context of the <a href="https://www.mn.uio.no/ifi/english/research/projects/pritem/index.html"  style="color: darkblue;">PriTEM project: “Privacy-preserving Transactive Energy Management”</a>. It is also relevant to the recently established <b><a href="https://www.blockchainlab.no/" style="color: darkblue;">Blockchain Lab</a> </b> at the University of Oslo.</p>
+
+                            <p>The research fellowship period is for three years. An additional year of compulsory teaching-related duties may be offered at the time of appointment, for candidates who can and want to contribute to teaching and supervision at the department.  In this case, the compulsory duties will be spread out over the full contract period, averaging 25% per year over four years.</p>
+
+
+                            <p>Application deadline is <b>February 28th,
+                                2022</b>. Starting date no later than <b>October
+                                1, 2022</b>. No one can be appointed for more than one PhD Research Fellowship period at the University of Oslo.</p>
+
+                            <!--p>The purpose of the fellowship is research
+                            training leading to the successful completion of a
+                            PhD degree.</p>
+
+                            <p>Salary is between NOK 491200 - 534400 per annum
+                                    depending on qualifications and seniority as
+                                    PhD Research Fellow.</p--> <!-- AFC (position code
+                                    ????)</p> -->
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+        <div class="about-details" id="about-mission" style="padding-top: 0px; padding-bottom: 0px;">
+            <div class="container">
+                <div class="row justify-content">
+                    <div class="col-lg-9 col-md-12">
+                        <div class="about-details-cap mb-50">
+                            <div class="section-tittle mb-35">
+                                <h3><b>Project description</b></h3>
+                            </div>
+
+
+                            <p>The energy infrastructure is undergoing a major transformation from a conventional power grid to a more distributed and adaptive energy ecosystem. Such an ecosystem relies on a self-organizing energy market in which energy micro-producers advertise their offerings while individual consumers dynamically decide where to buy energy from and sign contracts with micro-producers in a bottom-up, ad-hoc manner; such contracts and transactions need to be recorded in a transparent fashion to enable auditing and compliance with applicable regulations. </p>
+
+                            <p>The above vision requires a data sharing infrastructure that does not exist yet. Conventional approaches to data sharing rely on centralized parties. This is regarded as an impediment to creating decentralized energy management. </p>
+
+                            <p>Our principal approach is to facilitate solutions for sharing energy management data by using smart contracts and the blockchain. From the data security, authenticity, and nonrepudiation point of view, blockchain is considered a perfect fit for sharing energy-related information since it provides an easily accessible, immutable, and transparent history of all contract-related data, adequate for building applications with trust, accountability, and transparency. </p>
+
+                            <p>The benefits of blockchain have been advocated in academic works and pilots run, e.g. by the Brooklyn Microgrid, Mitsubishi Electric and Tokyo Institute of Technology. Unfortunately, these initiatives have met significant challenges related to insufficient security, privacy, and scalability. </p>
+
+                            <p>The PriTEM project plans to identify functional and non-functional requirements of transactive and contractual energy trading. The objective of the announced PhD position is to (a) investigate primitives required to support data sharing in this context, (b) design a blockchain-assisted edge computing architecture for implementing the primitives, (c) examine the suitability of existing distributed ledger technologies through prototyping and experimentation, and (d) propose their adaptation in order to support the architecture. The architecture will address technical challenges related to secure data sharing, privacy, digital trust enhancement, as well as scalability.</p>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+        <div class="about-details" id="about-mission" style="padding-top: 0px; padding-bottom: 0px;">
+            <div class="container">
+                <div class="row justify-content">
+                    <div class="col-lg-9 col-md-12">
+                        <div class="about-details-cap mb-50">
+                            <div class="section-tittle mb-35">
+                                <h3><b>Qualification requirements</b></h3>
+                            </div>
+
+                            <p>The Faculty of Mathematics and Natural Sciences has a strategic ambition to be among Europe’s leading communities for research, education and innovation. Candidates for these fellowships will be selected in accordance with this, and expected to be in the upper segment of their class with respect to academic credentials.</p>
+
+                            <ul class="unordered-list" style="padding-left: 8%;
+                                padding-bottom:10px">
+                                <li>Master’s degree or equivalent in Computer Science. Candidates without a Master’s degree have until 30 June, 2022 to complete the final exam.</li>
+                                <li>Foreign completed degree (M.Sc.-level)
+                                    corresponding to a minimum of four years in
+                                    the Norwegian educational system</li>
+                                <li>Applicants must also be able to demonstrate interest in scientific research, related to both building applications atop blockchain and improving blockchain implementations and mechanisms</li>
+                                <li>The evaluation considers many aspects of excellence, as well as the personal drive and organizational skills</li>
+                                <li>The ideal candidate for the position will have strong background in distributed computing</li>
+                                <li>Experience of working in an international and/or interdisciplinary team is an advantage</li>
+                            </ul>
+
+                           <p>The fellowship requires admission to the PhD
+                            programme at the Faculty of Mathematics and Natural
+                            Sciences. The application to the PhD programme must
+                            be submitted to the department no later than two
+                            months after taking up the position. For more
+                            information see: 
+                            <a href="http://www.uio.no/english/research/phd/" style="color: darkblue;">here</a> and 
+                           <a href="http://www.mn.uio.no/english/research/phd/" style="color: darkblue;">here</a>.</p>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+
+        <div class="about-details" id="about-mission" style="padding-top: 0px; padding-bottom: 0px;">
+            <div class="container">
+                <div class="row justify-content">
+                    <div class="col-lg-9 col-md-12">
+                        <div class="about-details-cap mb-50">
+                            <div class="section-tittle mb-35">
+                                <h3><b>Grade requirements</b></h3>
+                            </div>
+
+                            <p>The norm is as follows:</p>
+
+                            <ul class="unordered-list" style="padding-left: 8%;
+                                padding-bottom:10px">
+                                <li>the average grade point for courses included in the Bachelor’s degree must be C or better in the Norwegian educational system</li>
+                                <li>the average grade point for courses included in the Master’s degree must be B or better in the Norwegian educational system</li>
+                                <li>the Master’s thesis must have the grade B or better in the Norwegian educational system</li>
+                                <li>fluent oral and written communication skills in English </li>
+                                <li>for english requirements for applicants from outside of EU/EEA countries and exemptions from the requirements see <a href="https://www.mn.uio.no/english/research/phd/regulations/regulations.html#toc8" style="color: darkblue;">here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+
+        <div class="about-details" id="about-mission" style="padding-top: 0px; padding-bottom: 0px;">
+            <div class="container">
+                <div class="row justify-content">
+                    <div class="col-lg-9 col-md-12">
+                        <div class="about-details-cap mb-50">
+                            <div class="section-tittle mb-35">
+                                <h3><b>We offer</b></h3>
+                            </div>
+
+                            <ul class="unordered-list" style="padding-left: 8%;
+                                padding-bottom:10px">
+                                <li>Salary NOK 491 200 – 534 400 per annum depending on qualifications and seniority as PhD Research Fellow (position code 1017)</li>
+                                <li>Attractive <a href="http://www.uio.no/english/for-employees/employment/welfare/index.html" style="color: darkblue;">welfare</a> benefits and a generous pension agreement </li>
+                                <li>Vibrant international academic environment</li>
+                                <li><a href="https://www.mn.uio.no/english/studies/career/career-development/"style="color: darkblue;"> Career development programmes</a></li>
+                                <li>Oslo’s family-friendly surroundings with their rich opportunities for culture and outdoor activities</li>
+                                <li>A strong research environment. Our students have won best paper and <a href="http://www.mn.uio.no/ifi/om/aktuelt/utmerkelser/acm-debs-poster-award-2014.html" style="color: darkblue;">best demo awards </a>at several conferences. Our alumni are employed by IBM Research, Microsoft, Spotify, and highly reputable academic institutions in Europe.</li>
+                                <li>The group of <a href= "http://www.mn.uio.no/ifi/english/research/groups/nd/index.html" style="color: darkblue;"> Networks and Distributed Systems</a> offers a work environment that is well equipped with the newest hard- and software technology. The research group has tight bonds with Simula Research Laboratory. Furthermore, we have well-established links to national and international research institutions. We conduct collaborative research projects that are funded by Norwegian research funds, and the European Community.</li>
+                                <li>Highly relevant for the prioritized initiatives at the department such as the <a href="https://www.blockchainlab.no/"  style="color: darkblue;"> Blockchain Lab </a> and the Strategic Research Initiative for <a href= "http://www.mn.uio.no/ifi/english/research/groups/conserns/"   style="color: darkblue;">Concurrent Security and Robustness of Networked Systems (Conserns)</a>.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+        <div class="about-details" id="about-mission" style="padding-top: 0px; padding-bottom: 0px;">
+            <div class="container">
+                <div class="row justify-content">
+                    <div class="col-lg-9 col-md-12">
+                        <div class="about-details-cap mb-50">
+                            <div class="section-tittle mb-35">
+                                <h3><b>How to apply</b></h3>
+                            </div>
+                            <p>The application must include:</p> 
+                            <ul class="unordered-list" style="padding-left: 8%;
+                                padding-bottom:10px">
+                                <li>Cover letter - statement of motivation and
+                                    research interests</li>
+                                <li>CV (summarizing education, positions and
+                                    academic work - scientific
+                                    publications)</li>
+                                <li>Copies of the original Bachelor and Master’s
+                                    degree diploma, transcripts of records</li>
+                                <li>Documentation of English proficiency</li>
+                                <li>List of publications and academic work that
+                                    the applicant wishes to be considered by the
+                                    evaluation committee</li>
+                                <li>Names and contact details of 2-3 references
+                                    (name, relation to candidate, e-mail and
+                                    telephone number)</li>
+                            </ul>
+                            <p>The application may additionally include letters
+                            of recommendation from the Master degree advisors
+                            and due to other professional engagements, such as
+                            summer internships and projects.</p>
+
+                            <p>The application with attachments must be
+                            delivered in our electronic recruiting system
+                            (<b><a href="https://www.jobbnorge.no/search/en" style="color: darkblue;">link to the position will be added here soon</a></b>). Foreign applicants are advised to attach an
+                            explanation of their University's grading system.
+                            Please note that all documents should be in English
+                            or a Scandinavian language.</p>
+
+                            <p>Shortlisted candidates will be called for an interview.</p>
+
+                            <!--p>The University of Oslo aims to achieve a balanced
+                            gender composition in the workforce and to recruit
+                            people with ethnic minority backgrounds.</p-->
+
+                            <!--p><b>Deadline: February 28, 2022</b></p-->
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+
+        <div class="about-details" id="about-mission" style="padding-top: 0px; padding-bottom: 0px;">
+            <div class="container">
+                <div class="row justify-content">
+                    <div class="col-lg-9 col-md-12">
+                        <div class="about-details-cap mb-50">
+                            <div class="section-tittle mb-35">
+                                <h3><b>Formal regulations</b></h3>
+                            </div>
+                            <p>Please see the <a href= "http://www.uio.no/english/about/regulations/personnel/academic/guidelines-appointment-postdoc-researcher.html" style="color: darkblue;"> guidelines </a> and <a href= "https://www.uio.no/english/about/regulations/personnel/academic/regulations-employment-conditions-postdoc.html" style="color: darkblue;"> regulations</a> for appointments to Research Fellowships at the University of Oslo.</p>
+
+                            <p>According to the Norwegian Freedom and Information Act (Offentleglova) information about the applicant may be included in the public applicant list, also in cases where the applicant has requested non-disclosure.</p>
+
+                            <p>UiO has an <a href="https://www.uio.no/english/about/regulations/personnel/academic/regulations-employment-conditions-postdoc.html"  style="color: darkblue;">agreement </a> for all employees, aiming to secure rights to research results a.o.</p>
+
+                            <p>The University of Oslo aims to achieve a balanced gender composition in the workforce and to recruit people with ethnic minority backgrounds.</p> 
+
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+        <div class="about-details" id="about-mission" style="padding-top: 0px; padding-bottom: 0px;">
+            <div class="container">
+                <div class="row justify-content">
+                    <div class="col-lg-9 col-md-12">
+                        <div class="about-details-cap mb-50">
+                            <div class="section-tittle mb-35">
+                                <h3><b>Contact</b></h3>
+                            </div>
+                            <p>For further information please contact 
+                            Roman Vitenberg (<img style="width: 20%; height: 20%;" src="./phd_data_sharing_files/roman_email.png">), Sabita Maharjan (<img style="width: 20%; height: 20%;" src="./phd_data_sharing_files/sabita_email.png">), or Arlindo F. da Conceição (<img style="width: 20%; height: 20%;" src="./phd_data_sharing_files/arlindo_email.png">).</p>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+        <!-- About Details End -->
+        <!--? Count Down Start -->
+        <!-- <div class="count-down-area pt-90 pb-60 section-bg" data-background="assets/img/gallery/section_bg01.png">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="count-down-wrapper" >
+                            <div class="row justify-content-between">
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    
+                                    <div class="single-counter text-center">
+                                        <svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72px" height="69px">
+                                            <image  x="0px" y="0px" width="72px" height="69px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABFCAMAAADerVCrAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB11BMVEUXmnP///8XmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnP///8qvp8aAAAAm3RSTlMAAFDr4uMPOMDMwtJjMzzHMMguXAUTrvgdzuXda/4UIr+7NTa2pVX1F7iKibnzFUFEvYcv8j7xn9+ewYPkQvARLeoCLMOAc3KBRdaFhoRW+u5XA/wIOWTaeA4rk69LHJyLKdH2qeyiqgwYs6Cn3Foktw1MbwlYaZk0lNmCEkftSRDUGVsHJaiyuhoKd+jnrfQb4Uislgt118pnASfW+mcAAAABYktHRAH/Ai3eAAAAB3RJTUUH5AUFDBg2+oR40gAAAoxJREFUWMPtmOlfEkEYxycxAQVCFJUVSMpVCBBRFMmENMxCUFO7Lc3yyg47zG677/uu3z/bLtfu+pl9sQu86BO/F+wzv332y87D7MwOhGRUoYEqaSqIVJXqOMD2LSCgiqhQFVBKkFanVySdVgZUrbQ+1TKgGhiMCmRAjSzIpKQ+pjKoDCopaAfMSkBm1MqALHVKOITUWUo9jRQNVG9VRrHWy4AaGpuUcJoaG/6ZcVQGlUHFANnANCsQA5sMyO5QtvQ77HLTiHOnIjlLPB+1uFSoZStol9pXSGC3BNQKtk2VWLSKOVq0u9WUiBB3O7Sipgd71HEI8cInNEzwd9CSnIFOkQJOWk6HX/Q8BNFFy+kOScsaMtOyuhDMhT3opS5EYfSJ34b7EKFlWXvRkw33op/afQZGcdOIfdS0fugywQCiMVrCfgwOidtDgzhAy4tFMZAO4himftNBsFKDxQg18RDi/OEwkKDuEDRgpAYDDTUxAXRyoFH1T4egZPrnCyvZONAUTg+fFLykQHmR4j7HMD5RoMZxhANNRqYKrdBUZDJ9Z9OxAjVdaG0k2lYklUH/NwiIHJUMrGO13KA/fuKk2Dt1OsqZM2ckiW0+zqtMns2MRTIbB+aEs+fmcX4mfIHBQkAwRwAbu+gClpbz3ooHuLh66TJwhWS7dnUNvmvZ09eBGzf5YN2BW7lrNjB/mz+67+BubrfSPYF79/ngwQKS+RqN4uEmbz4aRii3cKw8xsYTPjDrhWXIADzlj8/sQO6vrOU1eJ5nQWQdaH6x+hJ49Tp/729YILjI6oG3QidN7/B+KfzhIxKiBWUOiM9mQORT6jNXOdeYpJpfvnKe/5tF7H3/8ZMzf/3+Iza1EeAvtr05pHWuTqcAAAAASUVORK5CYII=" />
+                                       </svg>
+                                        <span class="counter color-green">1050</span>
+                                        <p class="color-green">+ Topics</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    
+                                    <div class="single-counter text-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72px" height="79px">
+                                             <image  x="0px" y="0px" width="72px" height="79px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABPCAMAAAB/NnPNAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACo1BMVEX///8tMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJItMJL///9r5VNNAAAA33RSTlMAACpgeYRyURmH3McEAnb16q6Shb3VOg23sT8DDGLb+2kKSQmYD6PjJGv+72dOLlDAfNdwXvxI4QaRsJ5/GzXxFwdcbfAeFflCdPIvuHum/ZUcZovQWLwllhYrq/qAFFaGmWX09zaX5KETzczuLZt6p+YLTZA3czhbqapX+GwwRXXEnzzoCDug88beQ88StikBiDTdHcgzfRp3r4LltU8FSukoMsE+9p0jjZPtIexEItKsrdTTmqIYMZxUjHHFOW+PqLsg4mTaeA5LVbnD0UHOpbNaTJTZRxBjsrrn1izKDeJBQwAAAAFiS0dEAIgFHUgAAAAHdElNRQfkBQUMHR6yRiRtAAAFV0lEQVRYw+2Y+UMTRxTHmaZaC0WoKNAmAqKABo9KGwiglbSksR6lhlAEtRAB0QqtUPHARDSCqAWVKCKHRakGhGLxwqteSE+1tffd77/St7mjYdnd+qPvh92ZNzOf3dl5x+wEBHgJ8yNPyZ4eM/aZcf6aWMBI8kjPcc8GwiFBsuekg4LHhwChz08ImzCRCpPCpYIiIoEXXpTby4rJUYiOkQaaEoTQWE916jQgLE4KKB4J030UM5RInCkeNAshsx+ayZyXgLliQcFJePnRZXpFpQwXCUpGitqP5aQiTSQoHfP8cNh8hMjFgaLwqj8QW4AMUSCNSqVxlV973QuUCa0o0BvIdHNUuoXSQVo36E0VsCj5f4MWL4Fy6VvIenuZdJBaH5NtABJzWPC8aES/Exaj1+vVEkC5XPTIXJ7HVfNXrHREk1zxoKxo6FbNmupSvFtQaDTqEJ0lGgSlZ+E8X1oJ8aDV/kCrxYLmoyjOHyiuCMtEgdTFyhJ/oBJlsVoUiK1BqT9QKdYycaB179FiPxRI1KRav04kiGn0Zcj3BZUjUa9hYkGMvY8PfBVLscFXIRAUi4pK73plBT6UBAo2YKN3fSMMwZJArEqHTZ7aJug2M2kgtkWFrU5D1lZDOZlJBbFtRTCtiEmeZV5RjKJtTDqIbYdbFjOJoIyaHfEGCkM7LZGRlp3ASkP8jpoMsaBd8RWO96gFjHV1RnuBk4q1u0WA6uppyJ6902L24SOzCYYGmMwLsS9m2t491FBfJwikNTfK9yNkzIGDVGnCGmY9BByykhc3keLggbAQ7Jc3mg+PCiqHqRmhzo2IFbVyayJlAKu8FkccutmhaDahXACIpLTlqGNUIFoTkdaGxPEIdGiOtpRyPYSAQts7ANWxjzvtcwPS1Oo2unEz65xzjPJlR3uoIFAKkx9Po3U/0dRFcyMORSIifcK6mk6QFbQdl7MUgSCSvNYkSiQnZaVp9uimTiuVnaTXSmq15zkhoBoHiOSUxUZDu+3f+Eg3FW2WU86mFNSMApreQP1lLjuJ06+n8Q1mcwMXZGe697QyeoKhhxdkQBmt9mmP8c7u7eMWqa/Xa2d6muyhDAY+0Kfoj5DLdDjj5VCaLcCWOi/FGehk8oh+fMYDKscA9ZyLsz6+CfhUz6GFrgP0vUcD5SOKDxRlzy5CQCU4zweahCoBoAuM+3m4yAe6iEG6XuAFXVLawi93w9TFB+oy4crlcBsu8S0/51SwFTA+ECvgDBVtvHakSE1AWQ/jB7GeMiSkKoT5Gi9IjNM+DpCtRcsP0rbYBIC0KVxUu9o5EqjzKhfbUrSjglhwbDUX1a51+QN1XeNiW3WsYzfBDyLJ+5yiGq7LFL4ghew6F9vG5rn6jQoiuWGhFLbAWOUBVRkXULKz3PDqJAREv/36IHr+wM1GDtR4c4AqzfoIny7CQNwK3qKoZroN3DZRbLtV/nC7YBBFtYKhLM4fsoa2aR5tFQEiudM+PNx+x2+TOBBjcvkIDWJBI0rAE3kij1uA9BuOktPKvmgm3/ryq6+9LS+/N5NLQN/4mOO3d0k3XLjMCbpyD8j2gA7ch63NsrUD/d95howFvn8wOARUK9y6S0uAH+o3BAI/ut5peiTuRjhBPwE37acPOUq4jx2NuG/l7hk/45fDTt3iMrQ3cqN/7Uehe3ph6IvlQL+twqIjrieeh9F+Qrt9PdJdyN9pq2SPLjOAOc7BikgsyXWRcmhzf7v+D+DPo+53n/IAmDj4gDZ/rZ5J7qrFX9WWc0X4+x+Py2YD9644y/PHUBbCkG/STz7L/ZIs9zmOrNzB5YV/Zx709v3N6cB/rUaS0+Yd8vsAAAAASUVORK5CYII=" />
+                                        </svg>
+                                        <span class="counter color-blue">1050</span>
+                                        <p class="color-blue">+ Topics</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    
+                                    <div class="single-counter text-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72px" height="71px">
+                                             <image  x="0px" y="0px" width="72px" height="71px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABHCAMAAACTZfGgAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACvlBMVEX///8tmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhctmhf////Z9I0RAAAA6HRSTlMAALv77U7Cw9xSvDlMUGXKT1MeBO5aEf3YVB/vqSMCAxI4Lof3EMfXuqcKVoNFLGjIUQ8NXXBsZMyWGqYVKi2EDkFtAS86NjNA8x3njJoUQ18IoGvkzWmkcmNg36uvwLRKF/6bJbnGfRvpsPWtZ4shdOwMNPQJxDH5Sc6Bar+jwSLL1tOyJpN30fwLtzwyWBiXgHqClTtX8jVEQhzUeFwpE52KtVvqlHF2IBaz8cXwKDfgYX7biIXJpTDdBtIH2Yn45q5I3nt8Sz2xeXPjz5j64Z7aK1Xihpz2n+Wiqrgkb5lHGai96Kx1fW7M+gAAAAFiS0dEAIgFHUgAAAAHdElNRQfkBQUMHhhwCNKbAAAEtklEQVRYw+2Y+1dUVRTHOYSAolgwiAQCQgiITigakAQiMChkIK8B8hEkSAQU6PhCI95vzCwVhDQFo0yzDALzUWlKb+mhmVr2/v4ZnXPnDjOXmXPvlKxWq+X3h9l7zrrnc89j7zP7jI2NKNt7ICe7ScSibMwE2DtwZe8ITLYWNIXIyIkOaqqVIHs50DQ4T8e91oEc5ED3wcVVZWl2fx/kRma4W5idBdBMeZAHIfd7ms/OHDTTSxFEZpnPzhxk1tfbx1sv1zEQ8TWbnTlotp/0CX9jMD4QQDzgpG+eM252FtYoUApyC7IVFRQ8l4Rg3nwm9YOgyy4PCpVbowWm6bLwDrY/bNHih/QKj4DLHYBMFImHJwa05L8KinrEGlB0zFIFUKw7VMvi+KD4BI1Gk7h8BZIUQMl4lB6pKx/jgFIMoZIq7PkqqcKMoHikEe/0DGRyQFnQZufkPo7V1PczP7jXjIEiEMX8teCAcuGx7om8fDxJ/fUFhfZSFW7Qg4qILyKF0ame4oBSMbkYcH+6RHbXkkgpyp6h7rNw44IS6KjV5Q6yoAqSQedZsJG4byLcqS0nREewmfpbtkoXaNEYiCRgw7YSYDsqeaAdcNxZ/FyV4D9fXRNoVE1tihFUB2rrG4B6HmhLhvByz0aZqQWjHk2C11zND0ifChovuha5FNHmt6KNOWVoV0yRjsxdXNALEAfkCX6u6RbPq9xd+eIegA96CdjB7Mto4IP2iju0j6X2/s5Yibo6XUTQAWa7MYMPckbPKwcP1eJV6mvMU6SaAQ5Dy4waRwgflIvevqO5oBlJyKHSxtckyu6fz7q24nVm3qjSyIBS0RUOZHoek9k1vGn6jQtqIzHHyYlCFglvnWxvT2yvGMdxQzYzvW/7yoHeQYcPe2kV/TipX5dT40AqxDHzrrDUXFC4uKoMtLRnYHDQ3z9aymnDoLBCQjryQUVex0PnhL63zoMf18hjZgjDsiBF6XCamffF4P7noAF2zhAyCTnyoKTizNozZ7qn7OVwziJZsOcQIA9yFhebVbgBp84flup8ShiaI2jlvl8IffntF0o70+03lRf5QAV8uOAj/YrLBuSFMVDcrEQ/qdoX6vJXtgz0AReVI1s/orXcTasTbgEpSqBcfakoRFvUso/7TXQpnZYD3mglXX1bLxMlkDMutY2MjGAnsXCMsF8yaGmzhiiCQsQ+n7BnhjtHTNSpZm0X7YBmV2XQqqxPG/v7Gz+LJhx9js1HJqTQqvqCBvdEgOgRsvpfqyGDrAR9qQT6SjtkjbQqhYI9sxlW6kqALOiu7ur/JWDUyeQrLSRCaRp83SO5sH3TcILdaS5LsvfbAtr23dUDYs9rDkCZEXSwCd+vue71A8pjjV2yaZU/dMMWuGmslnbdAo6lBTvCeB/5sRUFYaI/FfhJx57ryEeWoc9tNG1kNu8ozhkuhPEq7GGlls3P5bg6NoxB2G1jNmA39iUa3tiN278wZzgCowZkDtDL7Nl0YJqY/RWtuLXeQOoATv+aVgcEGQ+tuUPAbzeGIgCTC0Xb70i+eb1kE2rUxmOkDHC4JpKKYq7QlbMNkfxpc+EP2rYiUvLvS8ufgbRxemmc6Xk0exT4C5sHAOBlXXP3AAAAAElFTkSuQmCC" />
+                                        </svg>
+                                        <span class="counter color-green">1050</span>
+                                        <p class="color-green">+ Topics</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    
+                                    <div class="single-counter text-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72px" height="69px">
+                                            <image  x="0px" y="0px" width="72px" height="69px"  xlink:href="data:img/png;base64,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" />
+                                        </svg>
+                                        <span class="counter color-red">1050</span>
+                                        <p class="color-red">+ Topics</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Count Down End -->
+        <!--? Testimonial Start -->
+        <!-- <div class="testimonial-area fix pt-180 pb-180 section-bg" data-background="assets/img/gallery/section_bg03.png">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-9 col-md-9">
+                        <div class="h1-testimonial-active">
+                            
+                            <div class="single-testimonial pt-65">
+                                
+                                <div class="testimonial-icon mb-45">
+                                    <img src="assets/img/gallery/testimonial.png" class="ani-btn " alt="">
+                                </div>
+                                
+                                <div class="testimonial-caption text-center">
+                                    <p>You can’t succeed if you just do what others do and 
+                                        follow the well-worn path. You need to create a new and 
+                                        original path for yourself.</p>
+                                
+                                    <div class="testimonial-ratting">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="rattiong-caption">
+                                        <span>Clifford Frazier<span> - Colorlib Themes</span> </span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="single-testimonial pt-65">
+                            
+                                <div class="testimonial-icon mb-45">
+                                    <img src="assets/img/gallery/testimonial.png" class="ani-btn " alt="">
+                                </div>
+                            
+                                <div class="testimonial-caption text-center">
+                                    <p>You can’t succeed if you just do what others do and 
+                                        follow the well-worn path. You need to create a new and 
+                                        original path for yourself. </p>
+                                    
+                                    <div class="testimonial-ratting">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="rattiong-caption">
+                                        <span>Clifford Frazier<span> - Colorlib Themes</span> </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </main>
+    <footer>
+        <!--? Footer Start-->
+        <div class="footer-area footer-bg">
+            <div class="container">
+                <div class="footer-bottom">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-12">
+                            <div class="footer-copy-right text-center">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+    </footer>
+    <!-- Scroll Up -->
+    <div id="back-top">
+        <a title="Go to Top" href="https://www.blockchainlab.no/phd_security.html#"> <i class="fas fa-level-up-alt"></i></a>
+    </div>
+
+    <!-- JS here -->
+
+    <script src="./phd_security_files/modernizr-3.5.0.min.js"></script>
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="./phd_security_files/jquery-1.12.4.min.js"></script>
+    <script src="./phd_security_files/popper.min.js"></script>
+    <script src="./phd_security_files/bootstrap.min.js"></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="./phd_security_files/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="./phd_security_files/owl.carousel.min.js"></script>
+    <script src="./phd_security_files/slick.min.js"></script>
+    <!-- One Page, Animated-HeadLin -->
+    <script src="./phd_security_files/wow.min.js"></script>
+    <script src="./phd_security_files/animated.headline.js"></script>
+    <script src="./phd_security_files/jquery.magnific-popup.js"></script>
+
+    <!-- Date Picker -->
+    <script src="./phd_security_files/gijgo.min.js"></script>
+    <!-- Nice-select, sticky -->
+    <script src="./phd_security_files/jquery.nice-select.min.js"></script>
+    <script src="./phd_security_files/jquery.sticky.js"></script>
+    
+    <!-- counter , waypoint -->
+    <script src="./phd_security_files/jquery.counterup.min.js"></script>
+    <script src="./phd_security_files/waypoints.min.js"></script>
+    
+    <!-- contact js -->
+    <script src="./phd_security_files/contact.js"></script>
+    <script src="./phd_security_files/jquery.form.js"></script>
+    <script src="./phd_security_files/jquery.validate.min.js"></script>
+    <script src="./phd_security_files/mail-script.js"></script>
+    <script src="./phd_security_files/jquery.ajaxchimp.min.js"></script>
+    
+    <!-- Jquery Plugins, main Jquery -->	
+    <script src="./phd_security_files/plugins.js"></script>
+    <script src="./phd_security_files/main.js"></script>
+    
+    
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
